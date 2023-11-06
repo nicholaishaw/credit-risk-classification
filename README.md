@@ -29,4 +29,4 @@ The model's performance will depend on what it's being used for. In order to min
 
 ## Outside Assistance
 
-Tutor Simon Rennocks assisted with the development of the logic and the syntax of the python code in the Jupyter Notebook file.
+Tutor Simon Rennocks assisted with the development of the logic and the syntax of the python code in the Jupyter Notebook file and assisted with the application of machine learning concepts for the written report.
