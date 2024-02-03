@@ -9,19 +9,27 @@ The dataset contained several variables that contribute to the riskiness of borr
 ## Stages of the Machine Learning Process
 Data from the excel document were imported and converted into a Pandas DataFrame. After import, the target variable (the variable being predicted by the model) was assigned to the borrowers' loan status. 
 
-**Figure 1.** **
+![image](https://github.com/nicholaishaw/credit-risk-classification/assets/135463220/5e0e9730-ba7a-4900-b563-0f9f42d1a181)
+
+**Figure 1.** *Data fromt he excel file converted into a Pandas Dataframe.*
 
 After the target variable was created and assigned, the data were split into ‘training’ and ‘testing’ groups. The ‘train’ set of data was the data used to train the model into recognizing the patterns, and the ‘test’ set was used to test the accuracy of the training. We allocated 20% of the data to the ‘test’ set.
 
-**Figure 2.** **
+![image](https://github.com/nicholaishaw/credit-risk-classification/assets/135463220/951271c2-10f1-4514-97a1-878f1d1dec36)
+
+**Figure 2.** *Data split into test and training sets.*
 
 After the data were trained, it was fitted into the model using a logistic regression analysis. Since loan status is a binary variable, we selected a logistic regression.
 
-**Figure 3.** **
+![image](https://github.com/nicholaishaw/credit-risk-classification/assets/135463220/0c9022a1-fe49-4345-a672-0515fe0fac6f)
+
+**Figure 3.** *Dataset fit to a Logistic Regression.*
 
 The model's performance was evaluated by using a balanced accuracy score, confusion matrix, and a classification report.
 
-**Figure 4.** **
+![image](https://github.com/nicholaishaw/credit-risk-classification/assets/135463220/387decc2-da8a-46ac-ace9-0eb06a4e6c42)
+
+**Figure 4.** *Logistic Regression evaluation using a balanced accuracy score, confusion matrix, and a classification report.*
 
 
 ## Results
